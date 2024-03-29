@@ -3,3 +3,16 @@ to resolve this Error Simply Run 2 Commands
 1- cargo add solana-program@=1.17.0
 Then Run
 2- cargo update -p solana-program
+
+commands basic-
+navigate to program name folder
+yarn install
+anchor build
+
+Commands to generate keypair for program (PROGRAM_ID)-
+solana-keygen new -o target/deploy/second_program-keypair.json
+solana address -k target/deploy/second_program-keypair.json
+
+add address to declareid
+anchor build again
+anchor deploy

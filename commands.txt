@@ -9,8 +9,6 @@ navigate to program name folder
 yarn install
 anchor build
 
-Commands to generate keypair for program (PROGRAM_ID)-
-solana-keygen new -o target/deploy/second_program-keypair.json
 solana address -k target/deploy/second_program-keypair.json
 
 add address to declareid

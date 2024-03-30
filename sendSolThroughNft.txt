@@ -1,0 +1,2 @@
+spl-token wrap 1
+spl-token transfer --fund-recipient So11111111111111111111111111111111111111112 0.5 G2k6ShTNEyJo84Gu6Dey6ubKagaFQzjBxffncNtPJuqR <Address to transfer the wrapsol token to>

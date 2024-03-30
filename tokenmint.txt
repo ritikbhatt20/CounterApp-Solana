@@ -1,0 +1,7 @@
+cargo install spl-token-cli
+solana config set --url devnet
+spl-token create-token
+spl-token create-account <Token id>
+spl-token mint <Token id> 100
+spl-token accounts
+spl-token transfer --fund-recipient FiRHJpdaSP2s2dUJjdpFaEQtsHqmuNDU2sSwZpSm7Nbp(Token Id) 10 G2k6ShTNEyJo84Gu6Dey6ubKagaFQzjBxffncNtPJuqR(Address to transfer to)

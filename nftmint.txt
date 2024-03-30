@@ -1,0 +1,4 @@
+spl-token create-token --decimals 0  (Because nfts cannot be partial)
+spl-token create-account <Token id>
+spl-token mint <Token id> 1
+spl-token authorize 5ZspCzMxWv8QrdiJmHkEebAqvTh5ecd7eaRsqghXeVM mint --disable  (disabling to mint more tokens-unique and not replicate)

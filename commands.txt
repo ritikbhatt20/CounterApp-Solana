@@ -14,3 +14,12 @@ solana address -k target/deploy/second_program-keypair.json
 add address to declareid
 anchor build again
 anchor deploy
+
+To resume deployment if it fails-
+1- solana-keygen recover -o buffer_signer.json
+2- maximum satisfy lunch mansion firm quick method quote moon result insect note
+3- solana program deploy --buffer buffer_signer.json /home/ritikbhatt020/multi-token-escrow/target/deploy/multi_token.so
+
+To recover lamports if it fails-
+1- solana-keygen pubkey buffer_signer.json
+2- solana program close --buffer-account <BUFFER_ACCOUNT_ADDRESS> --recipient <YOUR_SOLANA_ADDRESS>
